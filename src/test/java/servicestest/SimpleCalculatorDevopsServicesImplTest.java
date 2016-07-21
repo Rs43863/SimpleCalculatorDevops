@@ -18,7 +18,7 @@ private SimpleCalculatorDevopsServices services;
 	@Test
 	public void minusTest(){
 		Double expected=2.0;
-		Assert.assertEquals(expected, services.minus(2.0, 2.0));
+		Assert.assertEquals(expected, services.minus(2.0, 2.0)) ;
 	}
 	@Test
 	public void multipyTest(){
