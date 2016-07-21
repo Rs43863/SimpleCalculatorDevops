@@ -17,7 +17,7 @@ private SimpleCalculatorDevopsServices services;
 	}
 	@Test
 	public void minusTest(){
-		Double expected=0.0;
+		Double expected=2.0;
 		Assert.assertEquals(expected, services.minus(2.0, 2.0));
 	}
 	@Test
